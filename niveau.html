@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ce n'est pas le bon niveau</title>
+    <link rel="icon" type="image/svg" href="./Assets/icon.svg" />
+    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body class="dark-theme">
+    <!-- header  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html" class="nav-logo">
+          <span>prethi</span><img src="./Assets/icon.svg" alt="" />h
+        </a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list grid">
+            <li class="nav-item">
+              <a href="./index.html#home" class="nav-link"
+                ><i class="fa-solid fa-house nav-icon"></i> Accueil</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="./index.html#portfolio"
+                class="nav-link active"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-image nav-icon"></i> Portfolio
+              </a>
+              <div class="dropdown-menu show">
+                <a class="dropdown-item" href="./polaris.html">Polaris</a>
+                <a class="dropdown-item" href="./tictac.html">Tic tac</a>
+                <a class="dropdown-item" href="./grottefantastique.html"
+                  >Grotte Fantastique</a
+                >
+                <a class="dropdown-item" href="./artechouse.html">Artechouse</a>
+                <a class="dropdown-item" href="./zazenkai.html">Zazenkai</a>
+                <a class="dropdown-item" href="./flhmlq.html">FLHMLQ</a>
+                <a class="dropdown-item" href="./mystimix.html">Mystimix</a>
+                <a class="dropdown-item" href="./ki.html">Ki</a>
+                <a class="dropdown-item active" href="./niveau.html"
+                  >Ce n'est pas le bon niveau</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#about" class="nav-link"
+                ><i class="fa-solid fa-user nav-icon"></i> Propos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#skills" class="nav-link"
+                ><i class="fa-solid fa-file nav-icon"></i> Compétences</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#contact" class="nav-link"
+                ><i class="fa-solid fa-message nav-icon"></i> Contact</a
+              >
+            </li>
+          </ul>
+          <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+        </div>
+
+        <div class="nav-btns">
+          <!-- theme btn  -->
+          <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="about section">
+        <h2 class="section-title">Ce n'est pas le bon niveau</h2>
+        <span class="section-subtitle">Son | Programmation | Conception de jeux</span>
+        <!-- le projet -->
+        <section class="processus-section">
+          <div class="processus-container container swiper-container">
+            <div class="swiper-wrapper">
+              <!-- project1 -->
+              <div class="project-content grid swiper-slide">
+                <img
+                  src="./Assets/01_vue-generale.jpg"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+              <!-- project2 -->
+              <div class="project-content grid swiper-slide">
+                <img
+                  src="./Assets/02_etape-01.jpg"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+              <!-- project3 -->
+              <div class="project-content grid swiper-slide">
+                <img
+                  src="./Assets/06_etape-04.jpg"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+            </div>
+        
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+        <div class="about-container container grid">
+          <div class="about-data">
+            <!-- description projet -->
+            <h3>Processus et intention</h3>
+            <p class="about-description">
+              Dans le projet <i>Ce n'est pas le bon niveau</i>, nous avons créé un
+              jeu d'évasion où les joueurs résolvent des énigmes pour aider un
+              personnage à s'échapper d'un ascenseur. En utilisant le <i>M5 Atom</i>,
+              nous avons intégré des composants physiques et numériques pour
+              enrichir l'expérience utilisateur. À travers ce projet, j'ai développé
+              mes compétences en <span class="mauve">programmation</span>, utilisation
+              de <span class="mauve">microcontrôleurs</span> et <span class="mauve">conception de jeux</span>.
+              Cette expérience m'a montré le potentiel de la combinaison
+              d'éléments <span class="mauve">interactifs</span> avec du matériel pour
+              créer des expériences captivantes. Ce projet m'a inspirée à
+              continuer à explorer le développement <span class="mauve">immersif</span>
+              de jeux et l'intégration de matériel dans mes futurs travaux.
+            </p>
+        
+            <a
+              href="https://github.com/rprethi/ce-nest-pas-le-bon-niveau"
+              class="button button-flex button-small portfolio-button portfolio-button-project"
+              target="_blank"
+            >
+              Lien Github
+              <i class="fa-solid fa-arrow-right button-icon"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=jcMQynvq0to"
+              class="button button-flex button-small portfolio-button portfolio-button-project"
+              target="_blank"
+            >
+              Voir le projet
+              <i class="fa-solid fa-arrow-right button-icon"></i>
+            </a>
+        
+            <h3>Rôle</h3>
+            <p class="about-description">
+              Programmatrice | Conceptrice sonore | Designer
+            </p>
+        
+            <h3>Crédits</h3>
+            <p class="about-description">
+              Khaly Tia Sing | Designer | Programmeur<br />
+              Delphine Grenier | Programmeuse
+            </p>
+        
+            <h3>Médium</h3>
+        
+            <div class="skills-content container">
+              <div class="skills-name">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M512 512H0V0h512zM406.41 217.014v-39.71c-6.54-2.912-43.991-13.625-73.578-2.335c-42.62 16.262-41.089 65.252-24.916 84.479c20.955 24.912 73.082 34.2 64.552 58.652c-4.417 12.662-25.038 14.866-43.218 10.615c-16.93-3.958-31.65-13.986-31.65-13.986v42.045s14.55 8.112 32.408 10.042c22.893 2.473 51.589-2.197 65.965-14.975c25.59-22.747 29.52-73.137-18.975-96.536c-40.355-19.47-39.691-25.027-39.408-35.014c.38-13.376 28.464-21.61 68.82-3.277M188.79 105.575c33.577 1.168 82.922 16.643 82.922 82.63s-60.374 87.64-115.463 82.922v93.433H115.21V106.45s40.001-2.043 73.579-.875m10.657 124.675c17.696-6.457 29.198-20.338 29.198-41.9c0-22.861-11.705-38.342-29.607-42.715c-19.386-4.737-42.789-1.945-42.789-1.945v90.044s32.395.458 43.198-3.484"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="skills-name">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 225 225"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M109.000000,226.000000 C73.035736,226.000000 37.071472,226.000000 1.053603,226.000000 C1.053603,151.110214 1.053603,76.220383 1.053603,1.000000 C36.686882,1.000000 72.374779,1.000000 108.532303,1.468657 C109.001930,21.739840 109.001930,41.542366 109.001930,59.708073 C99.584457,64.229088 91.186874,68.343536 82.683640,72.226639 C81.731277,72.661560 79.812569,72.195793 78.971596,71.443695 C75.747101,68.559952 72.936874,65.207191 69.669815,62.378544 C66.647209,59.761551 65.393982,56.848827 65.616531,52.811615 C65.941513,46.916210 65.700073,40.989578 65.700073,35.172272 C55.036198,35.172272 45.168240,35.172272 35.441399,35.172272 C35.441399,45.350182 35.441399,55.073036 35.441399,65.015907 C42.204319,65.015907 48.530163,64.975853 54.854774,65.046082 C56.306160,65.062195 58.189877,64.951355 59.130058,65.762238 C64.377785,70.288254 69.396698,75.079567 74.488998,79.775742 C58.763901,102.207710 59.081608,124.120743 74.893677,146.118149 C70.850494,149.848465 66.765984,153.262436 63.118233,157.092377 C60.095329,160.266281 56.726654,161.284378 52.464317,161.057281 C46.873039,160.759369 41.253910,160.984177 35.584923,160.984177 C35.584923,171.465408 35.584923,181.327530 35.584923,191.255463 C45.766201,191.255463 55.526955,191.255463 65.833656,191.255463 C65.833656,184.685745 65.682190,178.393143 65.922340,172.115524 C65.998238,170.131546 66.610138,167.740143 67.861969,166.310104 C71.476067,162.181412 75.424179,158.316772 79.516113,154.655777 C80.469261,153.802994 82.780563,153.547455 84.012283,154.076218 C92.005432,157.507797 99.872925,161.232071 109.000000,165.419495 C109.000000,184.442520 109.000000,205.221268 109.000000,226.000000 z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M119.000000,1.000000 C154.631088,1.000000 190.262161,1.000000 225.946625,1.000000 C225.946625,75.889565 225.946625,150.779175 225.946625,226.000000 C190.646469,226.000000 155.291885,226.000000 119.431007,225.532562 C118.924698,204.614807 118.924698,184.164474 118.924698,165.320160 C127.873665,161.186462 135.727127,157.436539 143.715393,154.000015 C144.920776,153.481461 147.211136,153.903519 148.216019,154.784378 C151.842361,157.963257 155.374725,161.324020 158.449829,165.025467 C159.981506,166.869141 161.118393,169.561020 161.259888,171.939056 C161.640656,178.337738 161.389984,184.774002 161.389984,191.239700 C172.000092,191.239700 181.760345,191.239700 191.598999,191.239700 C191.598999,181.044205 191.598999,171.166641 191.598999,160.983521 C184.887207,160.983521 178.570618,161.025970 172.255402,160.951492 C170.808380,160.934433 168.938828,161.011826 167.992554,160.198151 C162.730499,155.673523 157.693008,150.887695 152.619690,146.228897 C169.009933,123.685753 168.738358,101.522293 152.882965,79.340714 C157.394577,75.203712 161.548523,71.103600 166.046844,67.424583 C167.665604,66.100670 170.086700,65.219040 172.186798,65.122948 C178.599319,64.829536 185.033798,65.016418 191.456970,65.016418 C191.456970,54.565853 191.456970,44.848282 191.456970,35.009785 C181.316940,35.009785 171.555801,35.009785 161.298126,35.009785 C161.298126,41.580631 161.384735,47.877483 161.241531,54.169098 C161.202255,55.894188 161.011078,58.092796 159.969452,59.234970 C155.619522,64.004822 150.919205,68.455124 147.203262,72.167465 C137.450577,68.116936 128.503036,64.400810 119.000000,60.453964 C119.000000,41.261398 119.000000,21.130699 119.000000,1.000000 z"
+                  />
+                </svg>
+              </div>
+              <div class="skills-name">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M18.087 6.146c-.3 0-.607.017-.907.069c-2.532.367-4.23 2.239-5.18 3.674c-.95-1.435-2.648-3.307-5.18-3.674a6.5 6.5 0 0 0-.907-.069C2.648 6.146 0 8.77 0 12s2.656 5.854 5.913 5.854c.3 0 .607-.017.916-.069c2.531-.376 4.23-2.247 5.18-3.683c.949 1.436 2.647 3.307 5.18 3.683c.299.043.607.069.915.069C21.344 17.854 24 15.23 24 12s-2.656-5.854-5.913-5.854M6.53 15.734a4 4 0 0 1-.625.043c-2.148 0-3.889-1.7-3.889-3.777c0-2.085 1.749-3.777 3.898-3.777q.312.002.624.043c2.39.35 3.847 2.768 4.347 3.734c-.508.974-1.974 3.384-4.355 3.734m11.558.043q-.312-.002-.624-.043c-2.39-.35-3.856-2.768-4.347-3.734c.491-.966 1.957-3.384 4.347-3.734q.312-.041.624-.043c2.149 0 3.89 1.7 3.89 3.777c0 2.085-1.75 3.777-3.89 3.777m1.65-4.404v1.134h-1.205v1.182h-1.156v-1.182H16.17v-1.134h1.206V10.19h1.156v1.183zM4.246 12.498H7.82v-1.125H4.245v1.125z"
+                  />
+                </svg>
+              </div>
+              <div class="skills-name">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M50.455 102.855c0 25.177 39.647 105.629 77.265 105.629h.001c37.619 0 77.397-76.894 77.397-108.531c0-20.003-18.606-52.373-77.62-52.373c-59.013 0-77.043 35.758-77.043 55.275m50.039 5.634C86.402 93.277 77.656 77.857 77.656 77.857s14.41-7.175 23.824-9.091c.802-.163 1.62-.338 2.458-.516c8.997-1.916 20.189-4.298 36.328 1.496c33.579 12.056 47.896 34.606 47.896 34.606s-21.609-17.401-45.404-20.895c-13.707-2.013-39.203 6.152-39.203 6.152s8.862 9.38 16.075 23.114c1.137 2.165 2.245 4.147 3.306 6.045c5.668 10.137 9.974 17.838 9.974 37.93c0 14.659-11.08 36.443-11.08 36.443s6.223-28.383 1.204-50.825c-3.627-16.223-6.425-18.719-13.02-24.603c-2.528-2.255-5.615-5.008-9.52-9.224"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="skills-name">
+                <i class="fa-brands fa-figma"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer  -->
+
+      <footer class="footer">
+        <div class="footer-bg">
+          <div class="footer-container container grid">
+            <div>
+              <a href="index.html"
+                ><h1 class="footer-title">Prethiah Rajaratnam</h1></a
+              >
+            </div>
+            <ul class="footer-links">
+              <li>
+                <a href="./index.html#home" class="footer-link">Accueil</a>
+              </li>
+              <li>
+                <a href="./index.html#portfolio" class="footer-link active"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="./index.html#about" class="footer-link">Propos</a>
+              </li>
+              <li>
+                <a href="./index.html#skills" class="footer-link">Compétences</a>
+              </li>
+              <li>
+                <a href="./index.html#contact" class="footer-link">Contact</a>
+              </li>
+            </ul>
+
+            <div class="footer-socials">
+              <a
+                href="https://www.linkedin.com/in/prethiah/"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.behance.net/prethiah"
+                target="_blank"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-behance"></i>
+              </a>
+              <a
+                href="https://github.com/rprethi"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="Libraries/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9b634c15bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
